@@ -16,5 +16,10 @@ namespace AppBoxManagement
         {
             InitializeComponent();
         }
+
+        private void CloseApp_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
