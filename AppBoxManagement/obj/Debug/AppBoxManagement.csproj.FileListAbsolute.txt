@@ -1,0 +1,12 @@
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe.config
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.pdb
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.AssemblyReference.cache
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Properties.Resources.resources
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.SplashScreen.resources
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.GenerateResource.cache
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CoreCompileInputs.cache
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.exe
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.pdb
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Login.resources

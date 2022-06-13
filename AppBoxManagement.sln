@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBoxManagement", "AppBoxManagement\AppBoxManagement.csproj", "{851FC369-1ECE-4FFC-8497-9A27CF0285EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{851FC369-1ECE-4FFC-8497-9A27CF0285EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851FC369-1ECE-4FFC-8497-9A27CF0285EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851FC369-1ECE-4FFC-8497-9A27CF0285EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851FC369-1ECE-4FFC-8497-9A27CF0285EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {477DD6DB-B607-482C-AB3D-293BD29B0339}
+	EndGlobalSection
+EndGlobal
