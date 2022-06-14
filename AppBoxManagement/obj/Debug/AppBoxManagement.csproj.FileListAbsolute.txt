@@ -10,3 +10,5 @@ C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppB
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.exe
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.pdb
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Login.resources
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\TestDb.mdf
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\TestDb_log.ldf

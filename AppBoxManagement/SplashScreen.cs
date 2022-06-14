@@ -16,15 +16,17 @@ namespace AppBoxManagement
         {
             InitializeComponent();
         }
+        int compteur=0;
         private void SplashScreen_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            timerPourcentage.Start();
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-          
-            PrograssBar.Width += 3;
-            if(PrograssBar.Width >=700)
+         
+            PrograssBar.Width += 2;
+            if(PrograssBar.Width >=745)
             {
                 timer1.Stop();
                 Login loginForm= new Login();
@@ -33,6 +35,14 @@ namespace AppBoxManagement
             }
         }
 
-      
+        private void timerPourcentage_Tick(object sender, EventArgs e)
+        {
+            compteur += 1;
+            Pourcentage.Text = compteur + "%";
+            if(compteur == 100)
+            {
+                timerPourcentage.Stop();
+            }
+        }
     }
 }

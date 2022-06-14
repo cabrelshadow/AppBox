@@ -34,6 +34,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.PrograssBar = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.Pourcentage = new System.Windows.Forms.Label();
+            this.timerPourcentage = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,13 +66,31 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 30;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // Pourcentage
+            // 
+            this.Pourcentage.AutoSize = true;
+            this.Pourcentage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(106)))), ((int)(((byte)(199)))));
+            this.Pourcentage.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pourcentage.ForeColor = System.Drawing.Color.White;
+            this.Pourcentage.Location = new System.Drawing.Point(441, 342);
+            this.Pourcentage.Name = "Pourcentage";
+            this.Pourcentage.Size = new System.Drawing.Size(25, 24);
+            this.Pourcentage.TabIndex = 3;
+            this.Pourcentage.Text = "%";
+            // 
+            // timerPourcentage
+            // 
+            this.timerPourcentage.Tick += new System.EventHandler(this.timerPourcentage_Tick);
             // 
             // SplashScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(711, 409);
+            this.Controls.Add(this.Pourcentage);
             this.Controls.Add(this.PrograssBar);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pictureBox1);
@@ -81,6 +101,7 @@
             this.Load += new System.EventHandler(this.SplashScreen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -90,6 +111,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel PrograssBar;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label Pourcentage;
+        private System.Windows.Forms.Timer timerPourcentage;
     }
 }
 
