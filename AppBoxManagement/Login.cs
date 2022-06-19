@@ -34,5 +34,11 @@ namespace AppBoxManagement
                 TxtPassword.UseSystemPasswordChar = true;
             }
         }
+
+        private void BtnConnecter_Click(object sender, EventArgs e)
+        {
+            MainForms mainForms = new MainForms();
+            mainForms.Show();
+        }
     }
 }

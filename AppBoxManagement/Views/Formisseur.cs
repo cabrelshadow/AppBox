@@ -237,5 +237,27 @@ namespace AppBoxManagement.Views
         {
 
         }
+
+        private void RechercheFoirnisseur_TextChanged(object sender, EventArgs e)
+        {
+
+            if (RechercheFoirnisseur.Text != "")
+            {
+                string RequeteSelection = "SELECT * FROM Fournisseur where  NomF Like '"+RechercheFoirnisseur.Text+"%'";
+                Connection.Open();
+                SqlDataAdapter sda = new SqlDataAdapter(RequeteSelection, Connection);
+                SqlCommandBuilder sqlBuild = new SqlCommandBuilder(sda);
+                var dataSet = new DataSet();
+                sda.Fill(dataSet);
+                dataGridFournisseur.DataSource = dataSet.Tables[0];
+                Connection.Close();
+            }
+            else
+            {
+                AfficherFournisseur();
+            }
+          
+           
+        }
     }
 }

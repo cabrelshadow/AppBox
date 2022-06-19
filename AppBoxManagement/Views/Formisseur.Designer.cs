@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Formisseur));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -51,7 +52,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.dataGridFournisseur = new Guna.UI.WinForms.GunaDataGridView();
-            this.PrintPdf = new System.Windows.Forms.Button();
+            this.RechercheFoirnisseur = new System.Windows.Forms.TextBox();
+            this.d = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridFournisseur)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +63,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(249)))));
-            this.label1.Location = new System.Drawing.Point(321, 62);
+            this.label1.Location = new System.Drawing.Point(340, 37);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(205, 24);
             this.label1.TabIndex = 0;
@@ -69,11 +71,12 @@
             // 
             // IdFournisseur
             // 
-            this.IdFournisseur.Location = new System.Drawing.Point(150, 160);
+            this.IdFournisseur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IdFournisseur.Location = new System.Drawing.Point(151, 132);
             this.IdFournisseur.Multiline = true;
             this.IdFournisseur.Name = "IdFournisseur";
             this.IdFournisseur.Size = new System.Drawing.Size(196, 29);
-            this.IdFournisseur.TabIndex = 1;
+            this.IdFournisseur.TabIndex = 0;
             // 
             // AjouterForniseur
             // 
@@ -82,10 +85,12 @@
             this.AjouterForniseur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AjouterForniseur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AjouterForniseur.ForeColor = System.Drawing.Color.White;
-            this.AjouterForniseur.Location = new System.Drawing.Point(116, 260);
+            this.AjouterForniseur.Image = ((System.Drawing.Image)(resources.GetObject("AjouterForniseur.Image")));
+            this.AjouterForniseur.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.AjouterForniseur.Location = new System.Drawing.Point(151, 232);
             this.AjouterForniseur.Name = "AjouterForniseur";
             this.AjouterForniseur.Size = new System.Drawing.Size(169, 40);
-            this.AjouterForniseur.TabIndex = 2;
+            this.AjouterForniseur.TabIndex = 6;
             this.AjouterForniseur.Text = "Ajouter";
             this.AjouterForniseur.UseVisualStyleBackColor = false;
             this.AjouterForniseur.Click += new System.EventHandler(this.AjouterForniseur_Click);
@@ -94,7 +99,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(147, 139);
+            this.label2.Location = new System.Drawing.Point(148, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(116, 18);
             this.label2.TabIndex = 0;
@@ -104,7 +109,7 @@
             // 
             this.Nom.AutoSize = true;
             this.Nom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nom.Location = new System.Drawing.Point(147, 193);
+            this.Nom.Location = new System.Drawing.Point(148, 165);
             this.Nom.Name = "Nom";
             this.Nom.Size = new System.Drawing.Size(44, 18);
             this.Nom.TabIndex = 0;
@@ -112,7 +117,8 @@
             // 
             // NomProduit
             // 
-            this.NomProduit.Location = new System.Drawing.Point(150, 214);
+            this.NomProduit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NomProduit.Location = new System.Drawing.Point(151, 186);
             this.NomProduit.Multiline = true;
             this.NomProduit.Name = "NomProduit";
             this.NomProduit.Size = new System.Drawing.Size(196, 29);
@@ -122,7 +128,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(370, 139);
+            this.label4.Location = new System.Drawing.Point(371, 111);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(69, 18);
             this.label4.TabIndex = 0;
@@ -130,17 +136,18 @@
             // 
             // AdressFournisseur
             // 
-            this.AdressFournisseur.Location = new System.Drawing.Point(373, 160);
+            this.AdressFournisseur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AdressFournisseur.Location = new System.Drawing.Point(374, 132);
             this.AdressFournisseur.Multiline = true;
             this.AdressFournisseur.Name = "AdressFournisseur";
             this.AdressFournisseur.Size = new System.Drawing.Size(196, 29);
-            this.AdressFournisseur.TabIndex = 1;
+            this.AdressFournisseur.TabIndex = 2;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(370, 193);
+            this.label5.Location = new System.Drawing.Point(371, 165);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(86, 18);
             this.label5.TabIndex = 0;
@@ -148,17 +155,18 @@
             // 
             // NomProduitLivre
             // 
-            this.NomProduitLivre.Location = new System.Drawing.Point(584, 160);
+            this.NomProduitLivre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NomProduitLivre.Location = new System.Drawing.Point(585, 132);
             this.NomProduitLivre.Multiline = true;
             this.NomProduitLivre.Name = "NomProduitLivre";
             this.NomProduitLivre.Size = new System.Drawing.Size(205, 29);
-            this.NomProduitLivre.TabIndex = 1;
+            this.NomProduitLivre.TabIndex = 4;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(581, 139);
+            this.label3.Location = new System.Drawing.Point(582, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(148, 18);
             this.label3.TabIndex = 0;
@@ -166,17 +174,18 @@
             // 
             // QuantiterProduit
             // 
-            this.QuantiterProduit.Location = new System.Drawing.Point(584, 214);
+            this.QuantiterProduit.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QuantiterProduit.Location = new System.Drawing.Point(585, 186);
             this.QuantiterProduit.Multiline = true;
             this.QuantiterProduit.Name = "QuantiterProduit";
             this.QuantiterProduit.Size = new System.Drawing.Size(205, 29);
-            this.QuantiterProduit.TabIndex = 1;
+            this.QuantiterProduit.TabIndex = 5;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(581, 193);
+            this.label6.Location = new System.Drawing.Point(582, 165);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(71, 18);
             this.label6.TabIndex = 0;
@@ -184,9 +193,10 @@
             // 
             // TelePhoneFornisseur
             // 
-            this.TelePhoneFornisseur.Location = new System.Drawing.Point(373, 223);
+            this.TelePhoneFornisseur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TelePhoneFornisseur.Location = new System.Drawing.Point(374, 195);
             this.TelePhoneFornisseur.Name = "TelePhoneFornisseur";
-            this.TelePhoneFornisseur.Size = new System.Drawing.Size(171, 20);
+            this.TelePhoneFornisseur.Size = new System.Drawing.Size(171, 21);
             this.TelePhoneFornisseur.TabIndex = 3;
             // 
             // ModifierFournisseurs
@@ -196,10 +206,12 @@
             this.ModifierFournisseurs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ModifierFournisseurs.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModifierFournisseurs.ForeColor = System.Drawing.Color.White;
-            this.ModifierFournisseurs.Location = new System.Drawing.Point(309, 260);
+            this.ModifierFournisseurs.Image = ((System.Drawing.Image)(resources.GetObject("ModifierFournisseurs.Image")));
+            this.ModifierFournisseurs.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ModifierFournisseurs.Location = new System.Drawing.Point(374, 232);
             this.ModifierFournisseurs.Name = "ModifierFournisseurs";
             this.ModifierFournisseurs.Size = new System.Drawing.Size(169, 40);
-            this.ModifierFournisseurs.TabIndex = 2;
+            this.ModifierFournisseurs.TabIndex = 7;
             this.ModifierFournisseurs.Text = "Modifier";
             this.ModifierFournisseurs.UseVisualStyleBackColor = false;
             this.ModifierFournisseurs.Click += new System.EventHandler(this.ModifierFournisseurs_Click);
@@ -211,10 +223,12 @@
             this.SupprimerFournisseur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SupprimerFournisseur.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SupprimerFournisseur.ForeColor = System.Drawing.Color.White;
-            this.SupprimerFournisseur.Location = new System.Drawing.Point(496, 260);
+            this.SupprimerFournisseur.Image = ((System.Drawing.Image)(resources.GetObject("SupprimerFournisseur.Image")));
+            this.SupprimerFournisseur.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.SupprimerFournisseur.Location = new System.Drawing.Point(608, 232);
             this.SupprimerFournisseur.Name = "SupprimerFournisseur";
-            this.SupprimerFournisseur.Size = new System.Drawing.Size(169, 40);
-            this.SupprimerFournisseur.TabIndex = 2;
+            this.SupprimerFournisseur.Size = new System.Drawing.Size(182, 40);
+            this.SupprimerFournisseur.TabIndex = 8;
             this.SupprimerFournisseur.Text = "Supprimer";
             this.SupprimerFournisseur.UseVisualStyleBackColor = false;
             this.SupprimerFournisseur.Click += new System.EventHandler(this.SupprimerFournisseur_Click);
@@ -226,10 +240,12 @@
             this.Imprimer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Imprimer.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Imprimer.ForeColor = System.Drawing.SystemColors.Window;
-            this.Imprimer.Location = new System.Drawing.Point(688, 260);
+            this.Imprimer.Image = ((System.Drawing.Image)(resources.GetObject("Imprimer.Image")));
+            this.Imprimer.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Imprimer.Location = new System.Drawing.Point(688, 337);
             this.Imprimer.Name = "Imprimer";
             this.Imprimer.Size = new System.Drawing.Size(169, 40);
-            this.Imprimer.TabIndex = 2;
+            this.Imprimer.TabIndex = 9;
             this.Imprimer.Text = "Imprimer";
             this.Imprimer.UseVisualStyleBackColor = false;
             this.Imprimer.Click += new System.EventHandler(this.Imprimer_Click);
@@ -237,7 +253,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(249)))));
-            this.panel1.Location = new System.Drawing.Point(92, 342);
+            this.panel1.Location = new System.Drawing.Point(92, 327);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(765, 4);
             this.panel1.TabIndex = 4;
@@ -247,7 +263,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(249)))));
-            this.label7.Location = new System.Drawing.Point(403, 321);
+            this.label7.Location = new System.Drawing.Point(395, 306);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(175, 18);
             this.label7.TabIndex = 0;
@@ -287,7 +303,7 @@
             this.dataGridFournisseur.RowHeadersVisible = false;
             this.dataGridFournisseur.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridFournisseur.Size = new System.Drawing.Size(765, 281);
-            this.dataGridFournisseur.TabIndex = 7;
+            this.dataGridFournisseur.TabIndex = 10;
             this.dataGridFournisseur.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.dataGridFournisseur.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dataGridFournisseur.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -312,20 +328,24 @@
             this.dataGridFournisseur.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White;
             this.dataGridFournisseur.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridFournisseur_CellContentClick);
             // 
-            // PrintPdf
+            // RechercheFoirnisseur
             // 
-            this.PrintPdf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(116)))), ((int)(((byte)(249)))));
-            this.PrintPdf.FlatAppearance.BorderSize = 0;
-            this.PrintPdf.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PrintPdf.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PrintPdf.ForeColor = System.Drawing.SystemColors.Window;
-            this.PrintPdf.Location = new System.Drawing.Point(708, 352);
-            this.PrintPdf.Name = "PrintPdf";
-            this.PrintPdf.Size = new System.Drawing.Size(149, 43);
-            this.PrintPdf.TabIndex = 2;
-            this.PrintPdf.Text = "sauvegarder en pfd";
-            this.PrintPdf.UseVisualStyleBackColor = false;
-            this.PrintPdf.Click += new System.EventHandler(this.PrintPdf_Click);
+            this.RechercheFoirnisseur.Location = new System.Drawing.Point(92, 352);
+            this.RechercheFoirnisseur.Multiline = true;
+            this.RechercheFoirnisseur.Name = "RechercheFoirnisseur";
+            this.RechercheFoirnisseur.Size = new System.Drawing.Size(304, 26);
+            this.RechercheFoirnisseur.TabIndex = 11;
+            this.RechercheFoirnisseur.TextChanged += new System.EventHandler(this.RechercheFoirnisseur_TextChanged);
+            // 
+            // d
+            // 
+            this.d.AutoSize = true;
+            this.d.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.d.Location = new System.Drawing.Point(89, 334);
+            this.d.Name = "d";
+            this.d.Size = new System.Drawing.Size(175, 18);
+            this.d.TabIndex = 0;
+            this.d.Text = "Rechercher un fornisseur";
             // 
             // Formisseur
             // 
@@ -333,10 +353,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(925, 694);
+            this.Controls.Add(this.RechercheFoirnisseur);
             this.Controls.Add(this.dataGridFournisseur);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.TelePhoneFornisseur);
-            this.Controls.Add(this.PrintPdf);
             this.Controls.Add(this.Imprimer);
             this.Controls.Add(this.SupprimerFournisseur);
             this.Controls.Add(this.ModifierFournisseurs);
@@ -344,6 +364,7 @@
             this.Controls.Add(this.NomProduit);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label7);
+            this.Controls.Add(this.d);
             this.Controls.Add(this.Nom);
             this.Controls.Add(this.AdressFournisseur);
             this.Controls.Add(this.label6);
@@ -387,6 +408,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label7;
         private Guna.UI.WinForms.GunaDataGridView dataGridFournisseur;
-        private System.Windows.Forms.Button PrintPdf;
+        private System.Windows.Forms.TextBox RechercheFoirnisseur;
+        private System.Windows.Forms.Label d;
     }
 }

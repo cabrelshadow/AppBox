@@ -48,19 +48,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // CloseApp
-            // 
-            this.CloseApp.AutoSize = true;
-            this.CloseApp.BackColor = System.Drawing.SystemColors.Control;
-            this.CloseApp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CloseApp.ForeColor = System.Drawing.Color.Red;
-            this.CloseApp.Location = new System.Drawing.Point(770, 0);
-            this.CloseApp.Name = "CloseApp";
-            this.CloseApp.Size = new System.Drawing.Size(25, 24);
-            this.CloseApp.TabIndex = 0;
-            this.CloseApp.Text = "X";
-            this.CloseApp.Click += new System.EventHandler(this.CloseApp_Click);
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -80,6 +67,19 @@
             label3.Size = new System.Drawing.Size(77, 14);
             label3.TabIndex = 18;
             label3.Text = "Mot de passe";
+            // 
+            // CloseApp
+            // 
+            this.CloseApp.AutoSize = true;
+            this.CloseApp.BackColor = System.Drawing.SystemColors.Control;
+            this.CloseApp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CloseApp.ForeColor = System.Drawing.Color.Red;
+            this.CloseApp.Location = new System.Drawing.Point(770, 0);
+            this.CloseApp.Name = "CloseApp";
+            this.CloseApp.Size = new System.Drawing.Size(25, 24);
+            this.CloseApp.TabIndex = 0;
+            this.CloseApp.Text = "X";
+            this.CloseApp.Click += new System.EventHandler(this.CloseApp_Click);
             // 
             // btnShowPassword
             // 
@@ -107,6 +107,7 @@
             this.BtnConnecter.TabIndex = 19;
             this.BtnConnecter.Text = "Connecter";
             this.BtnConnecter.UseVisualStyleBackColor = false;
+            this.BtnConnecter.Click += new System.EventHandler(this.BtnConnecter_Click);
             // 
             // panel2
             // 

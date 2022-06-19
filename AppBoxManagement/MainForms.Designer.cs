@@ -81,10 +81,10 @@
             // panel2
             // 
             this.panel2.Controls.Add(this.button6);
+            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.BtnDashbord);
             this.panel2.Location = new System.Drawing.Point(3, 172);
             this.panel2.Name = "panel2";
@@ -129,7 +129,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(-6, 151);
+            this.button3.Location = new System.Drawing.Point(-3, 53);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(197, 44);
             this.button3.TabIndex = 0;
@@ -145,7 +145,7 @@
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(-6, 103);
+            this.button5.Location = new System.Drawing.Point(-6, 92);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(197, 44);
             this.button5.TabIndex = 0;
@@ -160,7 +160,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(-3, 53);
+            this.button2.Location = new System.Drawing.Point(-3, 142);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(197, 44);
             this.button2.TabIndex = 0;
@@ -216,7 +216,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(99, 122);
+            this.pictureBox2.Location = new System.Drawing.Point(75, 138);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(788, 486);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
