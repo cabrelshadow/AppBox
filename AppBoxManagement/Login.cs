@@ -21,5 +21,18 @@ namespace AppBoxManagement
         {
             Application.Exit();
         }
+
+        private void btnShowPassword_Click(object sender, EventArgs e)
+        {
+
+            if (TxtPassword.UseSystemPasswordChar == true)
+            {
+                TxtPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                TxtPassword.UseSystemPasswordChar = true;
+            }
+        }
     }
 }

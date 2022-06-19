@@ -10,5 +10,15 @@ C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppB
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.exe
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.pdb
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Login.resources
-C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\TestDb.mdf
-C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\TestDb_log.ldf
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.MainForms.resources
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Dashbord.resources
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Formisseur.resources
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\Guna.UI.dll
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CopyComplete
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\DGV2Printer-net20.dll
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.dll
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.dll
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.xml
+C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.xml
