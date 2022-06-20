@@ -39,6 +39,7 @@ namespace AppBoxManagement
         {
             MainForms mainForms = new MainForms();
             mainForms.Show();
+            this.Close();      
         }
     }
 }

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.IO;
-using iTextSharp.text.pdf;
+
 using DGV2Printer;
 
 namespace AppBoxManagement.Views
@@ -31,9 +31,9 @@ namespace AppBoxManagement.Views
             AfficherFournisseur();
         }
         // la connection a la base de donnees
-        SqlConnection Connection= new  SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Mr shadow\Documents\GestionCaisse.mdf"";Integrated Security=True;Connect Timeout=30");
+        SqlConnection Connection= new  SqlConnection(@"Data Source= (LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\Db\GestionCaisse.mdf""; Integrated Security = True; Connect Timeout = 30");
 
-        private void Formisseur_Load(object sender, EventArgs e)
+        private void Formisseur_Load(object sender, EventArgs e)      
         {
 
         }
@@ -51,10 +51,12 @@ namespace AppBoxManagement.Views
         //requete de seletion des fournisseurs
         private void AfficherFournisseur()
         {
+
+
             Connection.Open();
             string RequeteSelection = "SELECT * FROM Fournisseur";
-            SqlDataAdapter sda = new SqlDataAdapter(RequeteSelection,Connection);
-            SqlCommandBuilder sqlBuild= new SqlCommandBuilder(sda);
+            SqlDataAdapter sda = new SqlDataAdapter(RequeteSelection, Connection);
+            SqlCommandBuilder sqlBuild = new SqlCommandBuilder(sda);
             var dataSet = new DataSet();
             sda.Fill(dataSet);
             dataGridFournisseur.DataSource = dataSet.Tables[0];
@@ -129,7 +131,7 @@ namespace AppBoxManagement.Views
                         SqlCommand command = new SqlCommand(Requete, Connection);
                         command.ExecuteNonQuery();
 
-                        MessageBox.Show("Fournisseur effectuer avec succès", "Modification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Fournisseur modifier avec succès", "Modification", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         Connection.Close();
 
 

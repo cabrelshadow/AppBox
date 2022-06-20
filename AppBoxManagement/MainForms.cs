@@ -56,5 +56,20 @@ namespace AppBoxManagement
         {
             LoadForm(new Formisseur());
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            LoadForm(new CategorieProduit());
+        }
+
+        private void MainPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void StockProduits_Click(object sender, EventArgs e)
+        {
+            LoadForm(new StockProduits());
+        }
     }
 }
