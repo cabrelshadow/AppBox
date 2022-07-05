@@ -23,6 +23,7 @@ namespace AppBoxManagement
         {
             if (this.MainPanel.Controls.Count > 0)
                 this.MainPanel.Controls.RemoveAt(0);
+
                    Form formulaire = Form as Form;
             formulaire.TopLevel = false;
             formulaire.Dock=DockStyle.Fill;
@@ -33,7 +34,10 @@ namespace AppBoxManagement
         }
         private void BtnClose_Click(object sender, EventArgs e)
         {
-           Application.Exit();
+
+            var result = MessageBox.Show("voulez-vous vraiment fermé l'application ?", "information fermeture", MessageBoxButtons.YesNo,MessageBoxIcon.Question) ;
+            if(result == DialogResult.Yes)
+            Application.Exit();
             
         }
 
@@ -70,6 +74,33 @@ namespace AppBoxManagement
         private void StockProduits_Click(object sender, EventArgs e)
         {
             LoadForm(new StockProduits());
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Boutique());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Caisse());
+        }
+
+        private void LogOut_Click(object sender, EventArgs e)
+        {
+            //var result = MessageBox.Show("voulez-vous vraiment fermé l'application ?", "information fermeture", MessageBoxButtons.YesNo,MessageBoxIcon.Question) ;
+            //if(result == DialogResult.Yes)
+            Login login = new Login();
+            this.Hide();
+            login.Show();
+          
+         
+                
+        }
+
+        private void Paramettre_Click(object sender, EventArgs e)
+        {
+            LoadForm(new Paramettre());
         }
     }
 }

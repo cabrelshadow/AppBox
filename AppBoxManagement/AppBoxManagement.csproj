@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -67,6 +67,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -100,6 +101,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Boutique.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Boutique.Designer.cs">
+      <DependentUpon>Boutique.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Caisse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Caisse.Designer.cs">
+      <DependentUpon>Caisse.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\CategorieProduit.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,11 +131,11 @@
     <Compile Include="Views\Formisseur.Designer.cs">
       <DependentUpon>Formisseur.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\StockProduit.cs">
+    <Compile Include="Views\Paramettre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\StockProduit.Designer.cs">
-      <DependentUpon>StockProduit.cs</DependentUpon>
+    <Compile Include="Views\Paramettre.Designer.cs">
+      <DependentUpon>Paramettre.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\StockProduits.cs">
       <SubType>Form</SubType>
@@ -148,6 +161,12 @@
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Boutique.resx">
+      <DependentUpon>Boutique.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Caisse.resx">
+      <DependentUpon>Caisse.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\CategorieProduit.resx">
       <DependentUpon>CategorieProduit.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,8 +176,8 @@
     <EmbeddedResource Include="Views\Formisseur.resx">
       <DependentUpon>Formisseur.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\StockProduit.resx">
-      <DependentUpon>StockProduit.cs</DependentUpon>
+    <EmbeddedResource Include="Views\Paramettre.resx">
+      <DependentUpon>Paramettre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\StockProduits.resx">
       <DependentUpon>StockProduits.cs</DependentUpon>
@@ -189,6 +208,14 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

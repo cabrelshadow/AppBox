@@ -32,6 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.LogOut = new System.Windows.Forms.Button();
+            this.Paramettre = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.StockProduits = new System.Windows.Forms.Button();
@@ -80,6 +82,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.LogOut);
+            this.panel2.Controls.Add(this.Paramettre);
             this.panel2.Controls.Add(this.button6);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.StockProduits);
@@ -88,8 +92,39 @@
             this.panel2.Controls.Add(this.BtnDashbord);
             this.panel2.Location = new System.Drawing.Point(3, 172);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(194, 311);
+            this.panel2.Size = new System.Drawing.Size(194, 493);
             this.panel2.TabIndex = 1;
+            // 
+            // LogOut
+            // 
+            this.LogOut.FlatAppearance.BorderSize = 0;
+            this.LogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LogOut.ForeColor = System.Drawing.Color.White;
+            this.LogOut.Image = ((System.Drawing.Image)(resources.GetObject("LogOut.Image")));
+            this.LogOut.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.LogOut.Location = new System.Drawing.Point(51, 407);
+            this.LogOut.Name = "LogOut";
+            this.LogOut.Size = new System.Drawing.Size(55, 45);
+            this.LogOut.TabIndex = 0;
+            this.LogOut.UseVisualStyleBackColor = true;
+            this.LogOut.Click += new System.EventHandler(this.LogOut_Click);
+            // 
+            // Paramettre
+            // 
+            this.Paramettre.FlatAppearance.BorderSize = 0;
+            this.Paramettre.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Paramettre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Paramettre.ForeColor = System.Drawing.Color.White;
+            this.Paramettre.Image = ((System.Drawing.Image)(resources.GetObject("Paramettre.Image")));
+            this.Paramettre.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Paramettre.Location = new System.Drawing.Point(-6, 320);
+            this.Paramettre.Name = "Paramettre";
+            this.Paramettre.Size = new System.Drawing.Size(197, 44);
+            this.Paramettre.TabIndex = 0;
+            this.Paramettre.Text = "Paramettre";
+            this.Paramettre.UseVisualStyleBackColor = true;
+            this.Paramettre.Click += new System.EventHandler(this.Paramettre_Click);
             // 
             // button6
             // 
@@ -105,6 +140,7 @@
             this.button6.TabIndex = 0;
             this.button6.Text = "Caisse";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button2
             // 
@@ -118,8 +154,9 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(197, 44);
             this.button2.TabIndex = 0;
-            this.button2.Text = "Produits";
+            this.button2.Text = "Boutique";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // StockProduits
             // 
@@ -133,7 +170,7 @@
             this.StockProduits.Name = "StockProduits";
             this.StockProduits.Size = new System.Drawing.Size(197, 44);
             this.StockProduits.TabIndex = 0;
-            this.StockProduits.Text = "Stock";
+            this.StockProduits.Text = "Produit";
             this.StockProduits.UseVisualStyleBackColor = true;
             this.StockProduits.Click += new System.EventHandler(this.StockProduits_Click);
             // 
@@ -199,9 +236,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(31, 27);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 90);
+            this.pictureBox1.Size = new System.Drawing.Size(88, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -212,7 +249,7 @@
             this.MainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.MainPanel.Location = new System.Drawing.Point(200, 0);
             this.MainPanel.Name = "MainPanel";
-            this.MainPanel.Size = new System.Drawing.Size(954, 688);
+            this.MainPanel.Size = new System.Drawing.Size(952, 688);
             this.MainPanel.TabIndex = 1;
             this.MainPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.MainPanel_Paint);
             // 
@@ -263,7 +300,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(200, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(954, 40);
+            this.panel3.Size = new System.Drawing.Size(952, 29);
             this.panel3.TabIndex = 2;
             // 
             // MainForms
@@ -271,7 +308,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1154, 688);
+            this.ClientSize = new System.Drawing.Size(1152, 688);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.MainPanel);
             this.Controls.Add(this.panel1);
@@ -308,5 +345,7 @@
         private System.Windows.Forms.Button BtnClose;
         private System.Windows.Forms.Button BtnMinimaze;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button LogOut;
+        private System.Windows.Forms.Button Paramettre;
     }
 }

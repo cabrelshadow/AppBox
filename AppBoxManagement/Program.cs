@@ -16,7 +16,7 @@ namespace AppBoxManagement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForms());
+            Application.Run(new SplashScreen());
         }
     }
 }

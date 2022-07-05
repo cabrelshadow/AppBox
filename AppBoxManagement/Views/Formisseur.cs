@@ -125,7 +125,9 @@ namespace AppBoxManagement.Views
                     // ouverture de la connexion
                  
                         Connection.Open();
-           string Requete = "UPDATE Fournisseur SET NomF='"+ NomProduit.Text+ "'  , AdresseF='" + AdressFournisseur.Text+ "' ,TelephoneF='" + TelePhoneFornisseur.Text+ "' ,NomProduitL='" + NomProduitLivre.Text+ "', " +
+             string Requete = "UPDATE Fournisseur SET NomF='"+ NomProduit.Text+ "' " +
+                        " , AdresseF='" + AdressFournisseur.Text+ "' ,TelephoneF='" + TelePhoneFornisseur.Text+ "' " +
+                        ",NomProduitL='" + NomProduitLivre.Text+ "', " +
                         "QuantiteProduitL='"+QuantiterProduit.Text+"'  WHERE IdFournisseur='" + IdFournisseur.Text + "';";
 
                         SqlCommand command = new SqlCommand(Requete, Connection);
@@ -222,8 +224,8 @@ namespace AppBoxManagement.Views
         {
          
            DGVPrinter printer = new DGVPrinter();
-            printer.Title = "lsite des fournisseur";
-            printer.SubTitle = String.Format("Date: {0}", DateTime.Now.Date);
+            printer.Title = "Liste des fournisseurs";
+            printer.SubTitle = String.Format("Date: {0}", DateTime.Now.ToString());
             printer.SubTitleFormatFlags = StringFormatFlags.LineLimit | StringFormatFlags.NoClip;
             printer.PageNumbers = true;
             printer.PageNumberInHeader=false;
@@ -260,6 +262,11 @@ namespace AppBoxManagement.Views
             }
           
            
+        }
+
+        private void SupprimerFournisseur_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

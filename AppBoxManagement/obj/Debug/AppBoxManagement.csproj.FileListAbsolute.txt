@@ -22,6 +22,33 @@ C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\iTex
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.xml
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.xml
 C:\Users\Mr shadow\source\repos\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.xml
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe.config
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.pdb
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\Guna.UI.dll
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.dll
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.dll
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.xml
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.xml
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.AssemblyReference.cache
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Login.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.MainForms.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Properties.Resources.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.SplashScreen.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.CategorieProduit.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Dashbord.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Formisseur.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.StockProduits.resources
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.GenerateResource.cache
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CoreCompileInputs.cache
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CopyComplete
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.exe
+C:\Users\Mr shadow\Desktop\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.pdb
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\bin\Debug\Database1.mdf
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\bin\Debug\Database1_log.ldf
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe.config
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.pdb
@@ -37,13 +64,45 @@ C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxM
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.MainForms.resources
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Properties.Resources.resources
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.SplashScreen.resources
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Boutique.resources
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Caisse.resources
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.CategorieProduit.resources
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Dashbord.resources
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Formisseur.resources
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Paramettre.resources
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.StockProduits.resources
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.GenerateResource.cache
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CoreCompileInputs.cache
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CopyComplete
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.exe
 C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.pdb
-C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.CategorieProduit.resources
-C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.StockProduit.resources
-C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.StockProduits.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\Database1.mdf
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\Database1_log.ldf
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe.config
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.exe
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\AppBoxManagement.pdb
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.dll
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.dll
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.dll
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\BouncyCastle.Crypto.xml
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\itextsharp.xml
+I:\c sharp them\AppBoxManagement\AppBoxManagement\bin\Debug\iTextSharp.LGPLv2.Core.xml
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.AssemblyReference.cache
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.SuggestedBindingRedirects.cache
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Login.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.MainForms.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Properties.Resources.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.SplashScreen.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Boutique.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Caisse.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.CategorieProduit.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Dashbord.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Formisseur.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.Paramettre.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.Views.StockProduits.resources
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.GenerateResource.cache
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CoreCompileInputs.cache
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.csproj.CopyComplete
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.exe
+I:\c sharp them\AppBoxManagement\AppBoxManagement\obj\Debug\AppBoxManagement.pdb
+C:\Users\Mr shadow\Documents\AppBoxManagement\AppBoxManagement\bin\Debug\Guna.UI.dll
